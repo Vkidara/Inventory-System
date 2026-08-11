@@ -91,3 +91,9 @@ alembic upgrade head
 
 Проверка текущей версии:
 alembic current
+
+Пример .env:
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=postgres
+POSTGRES_DB=inventory_db
+POSTGRES_PORT=5432
